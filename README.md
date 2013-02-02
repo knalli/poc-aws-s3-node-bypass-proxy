@@ -10,3 +10,5 @@ Proof Of Concept: Making a proxy of S3 download content.
 Usage
 =====
 * You need to create your own `credentials-aws.json` according the official Amazon NPM `aws-node`: http://aws.amazon.com/de/sdkfornodejs/
+* Start the server with `coffee server.coffee`, the server listens on port 3005 at default on the route `/download/<bucket>/<key>`.
+* If you want to download `http://s3.amazonaws.com/[bucket-name]/[key-name]` use `http://localhost:3005/download/[bucket-name]/[key-name]`
