@@ -1,0 +1,15 @@
+{
+  "name"            : "ProofOfConceptAwsS3DownloadToClientRequest",
+  "version"         : "1.0.0",
+  "main"            : "./server.coffee",
+  "dependencies"    : {
+    "express"       : "~3.0.3",
+    "connect"       : "~2.7.2"
+  },
+  "devDependencies" : {
+    "coffee-script" : "~1.4.0",
+    "grunt"         : "~0.3.17",
+    "aws-sdk"      : "~0.9"
+  },
+  "engine"          : "node >= 0.8.1"
+}
